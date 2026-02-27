@@ -14,7 +14,8 @@ header {
 }
 
 .logo {
-  width: 100px;
+  width: 120px;
+  max-width: 30%;
   margin-bottom: 10px;
 }
 
@@ -40,4 +41,48 @@ footer {
   background-color: #2c3e50;
   color: white;
   padding: 15px;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  header {
+    padding: 20px 10px;
+  }
+
+  .logo{
+    width: 80px;
+  }
+
+  iframe {
+    height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 13px;
+  }
+
+  h1{
+    font-size: 20px;
+  }
+
+  h2{
+    font-size: 16px;
+  }
+
+  .logo {
+    width: 60px;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  iframe {
+    height: 250px;
+  }
 }
